@@ -25,15 +25,17 @@
     font-weight: 600;
     font-size: 1rem;
     color: #ffffff;
-    background-color: rgba(18, 27, 27, 0.747);
+    background: linear-gradient( 106deg, #F7E93F, #FB09B4, #9100F8);
 }
 /* navbar styles */
 .navbar .nav-logo .logo-name{
     color: #FFFFFF;
     font-size: 2.5rem;
 }
-.navbar .nav-logo .logo-name span{
-    color: red;
+.navbar .nav-logo .logo-name span {
+    background: linear-gradient(106deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .navbar{
     display: flex;
@@ -51,4 +53,78 @@
     color: #ffffffe8;
     font-weight: 500;
     font-size: 1rem;
+}
+
+
+
+/* banner section  */
+
+
+/* podcast section  */
+.podcast-container{
+    padding-top:50px ;
+    padding-bottom: 120px;
+}
+.podcast-content{
+    text-align: center;
+}
+.podcast-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.podcast-dec{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #ffffffa4;
+}
+.second-dec{
+    margin-bottom: 0px;
+}
+.podcast-summary{
+    margin-bottom: 80px;
+}
+.podcast-overviwe{
+    display: grid ;
+    gap: 110px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px; 
+}
+.podcast-overviwe-content h1{
+    color: #00FF88;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.podcast-overviwe-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #ffffff83;
+}
+
+
+
+
+
+/* ressponsive */
+
+@media screen and (max-width:576px) {
+    .podcast-overviwe{
+    display: grid ;
+    gap: 55px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px; 
+}
+.podcast-summary{
+    margin-bottom: 40px;
+}
+.podcast-title{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
 }
