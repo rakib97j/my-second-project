@@ -4,3 +4,51 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+
+*{
+    margin: 0px;
+}
+.common-w{
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.common-bg-color{
+    background-color: #1A0B2E;
+}
+
+/* shared style */
+.btn-primary{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10000px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: rgba(18, 27, 27, 0.747);
+}
+/* navbar styles */
+.navbar .nav-logo .logo-name{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+.navbar .nav-logo .logo-name span{
+    color: red;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+.navbar .icon ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.navbar .icon ul a{
+    text-decoration: none;
+    color: #ffffffe8;
+    font-weight: 500;
+    font-size: 1rem;
+}
