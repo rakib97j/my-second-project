@@ -32,7 +32,7 @@
     color: #FFFFFF;
     font-size: 2.5rem;
 }
-.navbar .nav-logo .logo-name span {
+.navbar .nav-logo .logo-name span , .footer-title span {
     background: linear-gradient(106deg, #F7E93F, #FB09B4, #9100F8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,7 +54,9 @@
     font-weight: 500;
     font-size: 1rem;
 }
-
+.navbar .button img{
+    visibility: hidden;
+}
 
 
 /* banner section  */
@@ -69,7 +71,7 @@
     text-align: center;
 }
 .podcast-title{
-    font-weight: 700;
+    font-weight: bold;
     font-size: 3rem;
     color: #FFFFFF;
     margin-bottom: 16px;
@@ -112,7 +114,7 @@
     padding-bottom: 120px;
 }
 .choose-techWave-title h1{
-    font-weight: 700;
+    font-weight: bold;
     font-size: 3rem;
     text-align: center;
     margin-bottom: 40px;
@@ -125,7 +127,7 @@
 }
 .choose-techWave h2{
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 1.5rem;
     margin: 16px 0;
 }
@@ -150,7 +152,6 @@
 }
 .second-card{
     grid-column: span 2;
-    /* grid-rows: span 1; */
 }
 .three-card{
     grid-column: span 1;
@@ -188,7 +189,7 @@
 .box-title{
     color: #FFFFFF;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 12px;
 }
 .box-dec{
@@ -209,6 +210,52 @@
     font-weight: 600;
     font-size: 1rm;
     color: #00FF88;
+}
+
+/* Meet the Host section */
+
+.host-title{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.host-content{
+    display: flex;
+    background-color: #35116581;
+    border-radius: 40px;
+    padding: 40px;
+    gap: 24px;
+}
+.host-container{
+    padding-bottom: 120px;
+}
+
+.host-des-container{
+    display: flex;
+    align-items: center;
+}
+.host-des h2{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.host-des p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #ffffff80;
+    margin-bottom: 16px;
+}
+
+.host-social .social{
+    border: 1px solid #533C72;
+    border-radius: 1000%;
+    text-align: center;
+    gap: 80px;
+    padding: 12px 12px;
 }
 
 /* ressponsive */
@@ -247,10 +294,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
 } */
-.navbar .button img{
-    visibility: visible;
+/* .navbar .button img{
+    visibility: hidden;
     background-color: #1A0B2E;
-}
+} */
 .navbar .icon{
     visibility: hidden;
 }
@@ -280,6 +327,11 @@ visibility: hidden;
 }
 .box{
     max-width: 100%;
+}
+
+.host-des-container{
+    display: flex;
+    flex-direction: column;
 }
 
 
