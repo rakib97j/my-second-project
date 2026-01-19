@@ -356,17 +356,15 @@ visibility: hidden;
 
 
 .featured-box{
-    margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    padding-bottom: 120px;
+    margin-right: auto;
 }
 .featured-container-titel{
     padding-top: 40px;
     font-size: 1rem;
 }
 .box{
-    max-width: 100%;
+    width: 100%;
 }
 
 .host-des-container{
@@ -374,5 +372,16 @@ visibility: hidden;
     flex-direction: column;
 }
 
-
+.host-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 400px;
+}
+.footer-copyright{
+    text-align: center;
+}
 }
