@@ -133,7 +133,7 @@
     color: #ffffff6e;
     font-weight: 400;
     font-size: 1rem;
-    list-style: 24px;
+    line-height: 40px;
 }
 .Choose-container{
     display: grid;
@@ -145,6 +145,7 @@
 .frst-card{
     grid-column: span 1;
     grid-row: span 2;
+    padding-top: 107px;
 
 }
 .second-card{
@@ -156,10 +157,64 @@
     grid-row: span 1;
 }
 
+
+/* 5th and 6th section */
+.featured-container-titel{
+    padding-top: 120px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+.featured-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    padding-bottom: 120px;
+}
+.box iframe{
+    border-radius: 24px 24px 0 0;
+}
+.box{
+    max-width: 380px;
+    max-height: 440px;
+    background-color: #250D44;
+    border-radius: 24px;
+}
+.box-content{
+    padding: 24px;
+}
+.box-title{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.box-dec{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: #ffffff7c;
+    line-height: 24px;
+}
+.time{
+    display: flex;
+    gap: 6px;
+}
+.time image{
+    width: 20px;
+}
+.time h4{
+    font-weight: 600;
+    font-size: 1rm;
+    color: #00FF88;
+}
+
 /* ressponsive */
 
 @media screen and (max-width:576px) {
-    .podcast-overviwe{
+    .podcast-overviwe {
     display: grid ;
     gap: 55px;
     grid-template-columns: repeat(2, 1fr);
@@ -187,5 +242,45 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+/* .navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+} */
+.navbar .button img{
+    visibility: visible;
+    background-color: #1A0B2E;
+}
+.navbar .icon{
+    visibility: hidden;
+}
+.navbar .icon ul a{
+visibility: hidden;
+}
+.navbar .btn-primary{
+    visibility: hidden;
+}
+.navbar .nav-logo .logo-name{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+
+/* Featured Episodes */
+
+
+.featured-box{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding-bottom: 120px;
+}
+.featured-container-titel{
+    padding-top: 40px;
+    font-size: 1rem;
+}
+.box{
+    max-width: 100%;
+}
+
 
 }
