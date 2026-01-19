@@ -203,12 +203,12 @@
     display: flex;
     gap: 6px;
 }
-.time image{
+.time img{
     width: 20px;
 }
 .time h4{
     font-weight: 600;
-    font-size: 1rm;
+    font-size: 1rem;
     color: #00FF88;
 }
 
@@ -258,9 +258,51 @@
     padding: 12px 12px;
 }
 
+
+/* footer section  */
+
+
+.footer-container{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer-box{
+    background-image: url(assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding-bottom: 70px;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-title{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #ffffff8a;
+}
+.footer-links{
+    max-width: 600PX;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 32px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright{
+    color: #fafafac4;
+}
 /* ressponsive */
 
 @media screen and (max-width:576px) {
+
+
     .podcast-overviwe {
     display: grid ;
     gap: 55px;
@@ -289,15 +331,12 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-/* .navbar{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-} */
-/* .navbar .button img{
-    visibility: hidden;
+.navbar .button img{
+    visibility: visible;
+    /* width: 28px; */
     background-color: #1A0B2E;
-} */
+
+    }
 .navbar .icon{
     visibility: hidden;
 }
@@ -317,6 +356,7 @@ visibility: hidden;
 
 
 .featured-box{
+    margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
     padding-bottom: 120px;
@@ -330,7 +370,7 @@ visibility: hidden;
 }
 
 .host-des-container{
-    display: flex;
+    text-align: center;
     flex-direction: column;
 }
 
