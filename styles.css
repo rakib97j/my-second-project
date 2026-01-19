@@ -55,7 +55,7 @@
     font-size: 1rem;
 }
 .navbar .button img{
-    visibility: hidden;
+    display: none;
 }
 
 
@@ -159,7 +159,7 @@
 }
 
 
-/* 5th and 6th section */
+/* 5th and 6th featured & meet host section*/
 .featured-container-titel{
     padding-top: 120px;
     text-align: center;
@@ -332,19 +332,17 @@
     padding-bottom: 40px;
 }
 .navbar .button img{
-    visibility: visible;
+    display: block;
     /* width: 28px; */
-    background-color: #1A0B2E;
+    /* background-color: #00FF88; */
 
     }
 .navbar .icon{
-    visibility: hidden;
+    display: none;
 }
-.navbar .icon ul a{
-visibility: hidden;
-}
+
 .navbar .btn-primary{
-    visibility: hidden;
+    display: none;
 }
 .navbar .nav-logo .logo-name{
     color: #FFFFFF;
