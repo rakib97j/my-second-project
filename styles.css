@@ -436,6 +436,15 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 40px; 
 }
+
+.podcast-dec{
+    line-height: 20px;
+}
+
+.podcast-container{
+    padding-bottom: 40px;
+}
+
 .podcast-summary{
     margin-bottom: 40px;
 }
@@ -463,7 +472,7 @@
     /* width: 28px; */
     /* background-color: #00FF88; */
 
-    }
+}
 .navbar .icon{
     display: none;
     cursor: pointer;
