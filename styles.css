@@ -19,6 +19,7 @@
 
 /* shared style */
 .btn-primary{
+    cursor: pointer;
     padding: 12px 16px;
     border: none;
     border-radius: 10000px;
@@ -293,6 +294,10 @@
     margin: 32px auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.footer-link img{
+    margin-right: 8px;
 }
 
 .footer-copyright{
@@ -339,6 +344,7 @@
     }
 .navbar .icon{
     display: none;
+    cursor: pointer;
 }
 
 .navbar .btn-primary{
@@ -355,15 +361,22 @@
 
 .featured-box{
     grid-template-columns: repeat(1, 1fr);
-    margin-right: auto;
+    padding-bottom: 40px;
 }
 .featured-container-titel{
     padding-top: 40px;
     font-size: 1rem;
 }
-.box{
+
+.box iframe{
     width: 100%;
 }
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+/* host section */
 
 .host-des-container{
     text-align: center;
@@ -374,6 +387,7 @@
     display: flex;
     flex-direction: column;
 }
+/* footer section  */
 .footer-links{
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
