@@ -61,6 +61,54 @@
 
 
 /* banner section  */
+#banner{
+    background-image: url(assets/hero-bg.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: 2px solid rgba(255, 255, 255, 0.068);
+}
+.banner-container{
+    padding-top: 101px;
+    padding-bottom: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px; 
+}
+.banner-circle{
+    margin-bottom: 40px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 3.75rem;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+.banner-des{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffffa2;
+    margin-bottom: 24px;
+}
+.banner-button{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.btn-secondary{
+    cursor: pointer;
+    padding: 12px 0px;
+    border: 2px solid #00FF88;
+    border-radius: 10000px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #00FF88;
+    background-color: rgba(255, 255, 255, 0);
+}
+
 
 
 /* podcast section  */
@@ -269,6 +317,8 @@
     padding-top: 70px;
 }
 
+
+
 .footer-box{
     background-image: url(assets/footer-bg.png);
     background-repeat: no-repeat;
@@ -356,6 +406,11 @@
 }
 
 
+/* banner section */
+.banner-container{
+    text-align: center;
+}
+
 /* Featured Episodes */
 
 
@@ -397,4 +452,5 @@
 .footer-copyright{
     text-align: center;
 }
+
 }
