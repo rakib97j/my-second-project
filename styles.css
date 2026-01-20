@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+@keyframes move-down-up {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);}
+}
+
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -111,6 +122,8 @@
     position: relative;
     left: 260px;
     bottom: 500px;
+    transition: 1s;
+    animation: move-down-up 2s ease-in-out 1s infinite alternate;
 }
 
 .banner-circle{
@@ -232,6 +245,7 @@
     padding: 40px;
     border-radius: 40px;
     background-color: rgba(53, 17, 101, 0.4);
+    overflow: hidden;
 }
 .choose-techWave h2{
     color: #FFFFFF;
